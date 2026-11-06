@@ -1,25 +1,25 @@
 class Psychic < Formula
   desc "Smarter file explorer and cd replacement that learns from your actions and ranks files with a model trained on your machine"
   homepage "https://github.com/kshitijl/psychic"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kshitijl/psychic/releases/download/v0.1.0/psychic-aarch64-apple-darwin.tar.xz"
-      sha256 "136da2ccc73507ce8620c691a83f17e8913b968fe4a153b5a1e4dba61d5b9272"
+      url "https://github.com/kshitijl/psychic/releases/download/v0.2.0/psychic-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "f99f1bd235a01a0fa692fd64fb23c51883cb3a24e7614dcfc6f8d88979cf24b8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kshitijl/psychic/releases/download/v0.1.0/psychic-x86_64-apple-darwin.tar.xz"
-      sha256 "92d78f89e0c453417d6ede693e496af03d4949c60678a5a5fdad6f0a13ede9c9"
+      url "https://github.com/kshitijl/psychic/releases/download/v0.2.0/psychic-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "cdb03197d7d542046292126afcd16e1d98b44495a62d0dcf7afe1d171eb97d16"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kshitijl/psychic/releases/download/v0.1.0/psychic-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "eb061cd810236a975a0e493f5ba0be8d8e2be3e2d3e2525929312dc5b79fd056"
+      url "https://github.com/kshitijl/psychic/releases/download/v0.2.0/psychic-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "781cba2f5961b66a888a714599f5c650a2a96216039a74911f7f0692054c8258"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kshitijl/psychic/releases/download/v0.1.0/psychic-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "dbb8bb1633b6a91a5f74dc4e3a9466e1ff58eea21bdeb7f7dfa89c7864cbf99a"
+      url "https://github.com/kshitijl/psychic/releases/download/v0.2.0/psychic-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "cb77480587c185c36ab74a25f7c15db48fcbc0209afbe599a1869c30ab964a93"
     end
   end
   license "MIT"
