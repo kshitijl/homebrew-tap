@@ -1,25 +1,25 @@
 class Psychic < Formula
   desc "Smarter file explorer and cd replacement that learns from your actions and ranks files with a model trained on your machine"
   homepage "https://github.com/kshitijl/psychic"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kshitijl/psychic/releases/download/v0.3.0/psychic-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "d9174dbc8e7445812f459354d66b515976c73fa238bc883e715cbc3f97299183"
+      url "https://github.com/kshitijl/psychic/releases/download/v0.4.0/psychic-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "8f1145201b0662d694ac422099d1d47a3490f9408620336fa5d988bb3c72f815"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kshitijl/psychic/releases/download/v0.3.0/psychic-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "9c36dd72b40ba0a2ec78f9b88acad9e9b64c03963ba143bed2076d5763a3b503"
+      url "https://github.com/kshitijl/psychic/releases/download/v0.4.0/psychic-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "f4ff3e462def0cca54fb10586f43042cb42d00b4328462628abb09c20ebe9671"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kshitijl/psychic/releases/download/v0.3.0/psychic-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a85b3d97b54fb2e17f04b0eda177bb819f73211ba4e59a649e223b20e9db18fe"
+      url "https://github.com/kshitijl/psychic/releases/download/v0.4.0/psychic-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8e1ba829ced469bdd5b9f62eddef054fdbb39a1d240d0e46ef725960835a9a58"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kshitijl/psychic/releases/download/v0.3.0/psychic-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "dcc28e79497ac67eeacf3a624a3faf185eea5cdff7e732d3d15c5228191323e3"
+      url "https://github.com/kshitijl/psychic/releases/download/v0.4.0/psychic-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6f058be0b9e1ba44a3b8e83dd28517c647aeea00ce5e4d57230103970bb29813"
     end
   end
   license "MIT"
